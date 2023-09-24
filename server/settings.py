@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p5ov@gz#_$i=tsy)w9ew4!uo$@wi^r^5fd70uvh(nm9qywnjxp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arduino-django.onrender.com']
 
 
 # Application definition
