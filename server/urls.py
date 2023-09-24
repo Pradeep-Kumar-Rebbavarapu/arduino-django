@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('get-data/',views.getData)
+    path('',views.send_value_to_esp)
 ]
